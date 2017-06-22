@@ -13,7 +13,7 @@ puts-error() {
 
 # Buildpack Warning.
 puts-warn() {
-  echo -e "\e[1m\e[33m=!= $@\e[0m"
+  echo -e "\e[1m\e[33m=#= $@\e[0m"
 }
 
 
